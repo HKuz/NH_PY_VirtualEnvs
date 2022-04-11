@@ -10,8 +10,14 @@ Materials for a Virtual Environments lightning talk for NH Python meetup in Apri
 - Why should you use them?
     - If need different versions of same package for different projects
     - If working on managed servers or production environments where can't modify system-wide packages because they have specific package version requirements (Dataquest article)
+- Python's `venv` module
+    - Part of standard library
+    - Demo of use
+- Anaconda
+    - Conda, miniconda package managers, conda includes other software (IDE, GUI)
+    - Demo of use
 
-### Python's `venv` module
+## Python's `venv` module
 
 - Part of standard library since Python 3.3
     - Built off of `virtualenv` PyPI package (needed to install via PIP) in Python 2
@@ -45,5 +51,6 @@ python3 -m pip install -r requirements.txt
 deactivate proj_venv
 ```
 
-### Anaconda: Conda and Miniconda
+## Anaconda: Conda and Miniconda
 
+- TODO
